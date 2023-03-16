@@ -426,7 +426,7 @@ h1 {
 }
 .bloc.bgc-dark-slate-blue.d-bloc {
   color: #ffffff !important;
-  background-color: none !important;
+  background-color: #000fff !important;
   font-size: 24px;
 }
 @media (max-width: 1024px) {
