@@ -390,6 +390,41 @@ h1 {
   background-image: url('img/atlanta%20made%20sign%20orange.jpg');
 }
 
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 20px;
+
+}
+
+.text-center a{
+  height: 48px;
+  font-size: 16px;
+}
+
+.col-sm-4 >ul > li {
+    /* height: 48px; */
+    padding: 15px 0;
+    
+}
+
+.sr-only {
+  padding: 16px;
+  font-size: 16px;
+}
+
+.form-group {
+  padding: 15px;
+}
+
+.navbar-nav > li{
+  padding:15px;
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -507,7 +542,7 @@ h1 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 40px;
+    max-height: 48px;
     width: auto;
   }
   .nav-invert .navbar-header {
