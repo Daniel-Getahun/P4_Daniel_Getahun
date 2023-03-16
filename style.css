@@ -109,7 +109,7 @@ button {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: 255, 255, 255;
 }
 
 
@@ -262,6 +262,7 @@ a {
 
 .hero-bloc-text {
   font-size: 38px;
+  
 }
 
 p {
@@ -349,16 +350,14 @@ h1 {
   background-color: #ffffff;
 }
 
-.bgc-dark-slate-blue {
-  background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
   background-color: #f3976c;
 }
 
 .tc-white {
-  color: #364577 !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
@@ -424,6 +423,11 @@ h1 {
 
 .navbar-nav > li{
   padding:15px;
+}
+.bloc.bgc-dark-slate-blue.d-bloc {
+  color: #ffffff !important;
+  background-color: none !important;
+  font-size: 24px;
 }
 @media (max-width: 1024px) {
   .bloc {
